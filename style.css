@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background:#FFF8F3;
+    width: 100%;
+    height: 836px;
+    background-image: url("./portfolio-resources/images/header_bg.png"),url(./portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 50px 110px ; */
+}
+h2{
+    font-weight: 800;
+    font-size: 45px;
+    margin: 50px 0  50px 110px; 
+
+}
+h2 span{
+    color:#FD6E0A;
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin: 50px 110px  50px 0; 
+}
+nav ul li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 22px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #fff;
+    border: 0;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+/* baner */
+
+.baner{
+    margin: 0 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.baner h3{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.baner h1{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 115px;
+}
+.baner p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+.baner button{
+    margin: 30px 30px 0 0;
+}
+.con-btn{
+    border: 1px solid #FD6E0A;
+    height: 64px;
+    width: 160px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FFF8F3;
+    border-radius: 5px ;
+}
+
+.baner img{
+    margin-left: 90px;
+}
+
+
+/* about */
+
+main{
+    background: #F3F3F3;
+    padding: 130px 230px;
+    margin: 0 auto;
+    /* margin-top: 130px; */
+}
+
+.about{
+    /* margin: 0 230px 130px 230px; */
+    margin-bottom: 130px;
+    /* padding: 130px 230px; */
+    height: 550px;
+    width: 100%;
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+}
+.about>h3{
+    padding: 130px 0 30px 0;
+    font-weight: 700;
+    font-size: 35px;
+}
+.about> p{
+    color: #757575;
+    font-size: 18px;
+    margin: 0 180px ;
+}
+.info-header{
+    display: flex;
+    margin: 30px 180px 10px 180px;
+    justify-content: space-around;
+    color: #757575;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    margin: 0px 180px;
+    justify-content: space-around;
+}
+.info .brith{
+    margin-right: 124px;
+}
+
+.what-i-do{
+    /* margin: 130px 230px; */
+    text-align: center;
+}
+.what-i-do>p{
+    margin: 30px 300px 50px 300px;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+.card-parent{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    text-align: start;
+    background: #fff;
+    box-shadow: 2px 2px 20px lightgray;
+}
+.card img{
+    margin: 32px 0 30px 32px;
+}
+.card h3{
+    margin-left:33px ;
+}
+.card p{
+    margin: 20px 30px 30px;
+    color: #757575;
+}
+.resume{
+    margin-top: 130px;
+}
+.resume> h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+}
+.edu-exp{
+    display: flex;
+    align-items: flex-start;
+}
+
+.edu{
+    width: 50%;
+}
+.exp{
+    width: 50%;
+}
+.edu >h1,.exp >h1{
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.resume-card{
+    border-bottom: 2px solid lightgray;
+    padding-right: 5px;
+}
+.resume-cardParent{
+    padding-right: 10px;
+}
+.resume-card h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.resume-card .resume-cardP1{
+    color: #757575;
+    margin: 10px 0 20px;
+}
+.resume-card .resume-cardP2{
+    margin-bottom: 30px;
+}
+.btn-div{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-message input,textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 5px;
+}
+.footer-contact p{
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footer-contact img{
+    margin-right: 24px;
+}
